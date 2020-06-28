@@ -8,5 +8,4 @@ RUN pip3 install --upgrade pip; pip3 install internetarchive
 # ports and volumes
 VOLUME /files
 
-CMD /bin/bash
-
+CMD tail -f /dev/null
